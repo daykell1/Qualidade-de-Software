@@ -1,0 +1,1 @@
+ # Resumos teóricos: conceitos, técnicas e metodologias de QA

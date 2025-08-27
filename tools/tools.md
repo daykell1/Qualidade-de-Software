@@ -1,0 +1,1 @@
+ # Exemplos de uso de ferramentas de QA (JMeter, Postman, etc.)

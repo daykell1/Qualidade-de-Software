@@ -1,0 +1,1 @@
+ # Testes de API (ex.: coleções Postman, scripts RestAssured, etc.)
