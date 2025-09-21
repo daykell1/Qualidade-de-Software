@@ -1,0 +1,20 @@
+[
+  {
+    "id": 25,
+    "name": "pikachu",
+    "type": ["electric"],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "type": ["fire"],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+  },
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "type": ["grass", "poison"],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  }
+]

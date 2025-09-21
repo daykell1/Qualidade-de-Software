@@ -1,0 +1,95 @@
+/* Importação da fonte do Google Fonts para um visual retrô de 8-bits */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #d63333; /* Vermelho temático */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #ffde00;
+    -webkit-text-stroke: 2px #3b4cca;
+    font-size: clamp(2rem, 8vw, 5rem);
+    text-shadow: 4px 4px 0px #3b4cca;
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffde00;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border: 5px solid #3b4cca;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon-pic {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+    filter: drop-shadow(0 0 5px #333);
+}
+
+#pokemon-name {
+    color: #3b4cca;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+#pokemon-number, #pokemon-type {
+    color: #333;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#pokemon-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3b4cca;
+    font-family: 'Arial', sans-serif;
+    outline: none;
+    width: 180px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #3b4cca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #1a2a8b;
+}
+
+#search-btn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
